@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Signika+Negative:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  background-color: #ffffff;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: #946e83;
+}
+
+header h1 {
+  font-size: 60px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #946e83;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+
+main {
+  margin-top: 220px;
+}
+
+img {
+  border-radius: 400px;
+  box-shadow: 5px 5px 5px #956f84;
+  margin: 10px;
+}
+
+.presentacion {
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto p {
+  margin-top: 0;
+  font-size: 28px;
+  color: #956f84;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.lista-de-intereses {
+  padding: 70px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #b488a1;
+}
+
+.lista {
+  margin-top: 0;
+  font-size: 30px;
+  background-color: #b488a1;
+  color:  #ffffff;
+  text-align: justify;
+  margin-right: 200px;
+}
+
+ul,
+h2,
+li {
+  background-color: inherit;
+  color: inherit;
+  font-size: 105%;
+}
+
+td {
+  padding: 5px;
+  padding-right: 20px;
+}
+
+.contacto {
+  margin: 60px;
+  font-size: 30px;
+  color: #956f84;
+  display: flex;
+  flex-direction: row;
+}
+
+.datos {
+  margin-left: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.formulario-contacto {
+  padding: 70px;
+  padding-right: 100px;
+  background-color: #b488a1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  background-color: #b488a1;
+}
+
+input,
+textarea {
+  background-color: inherit;
+  padding: 5px;
+  margin: 10px;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: #946e83 solid;
+  width: 80%;
+}
+
+form,
+p {
+  background-color: inherit;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #946e83;
+  border: #7c5b6d solid;
+  width: 100px;
+}
+
+.form h3 {
+  font-size: 40px;
+  background-color: inherit;
+  color: #ffffff;
+}
+
+.form div {
+  background-color: inherit;
+}

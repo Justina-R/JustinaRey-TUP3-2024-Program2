@@ -1,0 +1,11 @@
+.ej-2 {
+    width: 300px;
+    padding: 20px;
+    border: #C0C6C7 solid;
+    margin: 10px;
+}
+
+.ej-2 p {
+    padding: 10px;
+    background-color: white;
+}
